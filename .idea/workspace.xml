@@ -17,12 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin-bloom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin-petal.png" beforeDir="false" />
-    </list>
+    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="1.0 Revision" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +86,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="" />
@@ -100,11 +98,24 @@
       <updated>1781628499614</updated>
       <workItem from="1781628500632" duration="762000" />
       <workItem from="1781884230514" duration="105000" />
-      <workItem from="1781884342599" duration="312000" />
+      <workItem from="1781884342599" duration="790000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0 Revision">
+      <option name="closed" value="true" />
+      <created>1781884732069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781884732069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0 Revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0 Revision" />
   </component>
 </project>
