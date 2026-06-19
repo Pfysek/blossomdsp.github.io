@@ -17,7 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="1.0 Revision" />
+    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="1.1 Revision">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,7 @@
   }
 }</component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="9" />
+    <option name="suspendCountdown" value="8" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,6 +101,7 @@
       <workItem from="1781628500632" duration="762000" />
       <workItem from="1781884230514" duration="105000" />
       <workItem from="1781884342599" duration="790000" />
+      <workItem from="1781885350215" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 Revision">
       <option name="closed" value="true" />
@@ -108,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781884732069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1 Revision">
+      <option name="closed" value="true" />
+      <created>1781893781254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781893781254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0 Revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0 Revision" />
+    <MESSAGE value="1.1 Revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1 Revision" />
   </component>
 </project>
