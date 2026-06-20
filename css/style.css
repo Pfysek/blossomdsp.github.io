@@ -483,6 +483,10 @@ a {
   max-width: none !important;
 }
 
+.newsletter__title {
+  margin-bottom: 2rem;  /* increase this value as needed */
+}
+
 .newsletter__form-wrapper .formkit-fields {
   display: flex;
   gap: 0.75rem;
