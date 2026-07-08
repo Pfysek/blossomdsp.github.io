@@ -466,9 +466,11 @@ body {
 .about-inner .reveal-text:nth-child(5) { transition-delay: 0.22s; }
 .about-inner .reveal-text:nth-child(6) { transition-delay: 0.28s; }
 .about-inner .reveal-text:nth-child(7) { transition-delay: 0.34s; }
+.about-inner .reveal-text:nth-child(8) { transition-delay: 0.4s; }
 .about-inner .reveal-text:nth-child(9) { transition-delay: 0.44s; }
 .about-inner .reveal-text:nth-child(10) { transition-delay: 0.5s; }
 .about-inner .reveal-text:nth-child(11) { transition-delay: 0.56s; }
+.about-inner .reveal-text:nth-child(12) { transition-delay: 0.62s; }
 
 /* ==========================================
    Responsive Design
