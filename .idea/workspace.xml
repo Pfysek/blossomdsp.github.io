@@ -20,9 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="Fix Header Links">
-      <change beforePath="$PROJECT_DIR$/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
-    </list>
+    <list default="true" id="fa3d54bf-866d-4248-ac56-92645bf233b1" name="Changes" comment="Fix Header Links" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1782129286023" duration="2942000" />
       <workItem from="1783469072194" duration="60000" />
       <workItem from="1783469144293" duration="1805000" />
-      <workItem from="1783518676599" duration="859000" />
+      <workItem from="1783518676599" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 Revision">
       <option name="closed" value="true" />
@@ -327,7 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783519421338</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix Header Links">
+      <option name="closed" value="true" />
+      <created>1783519579972</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1783519579972</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix Header Links">
+      <option name="closed" value="true" />
+      <created>1783519746204</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1783519746204</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
