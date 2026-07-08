@@ -1,196 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLOOSOM DSP — Tools that breathe life into your sound</title>
-  <meta name="description" content="BLOOSOM DSP builds premium audio plugins. Tools that breathe life into your sound." />
-  <meta name="theme-color" content="#0a0a0a" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="src/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png" />
-  <link rel="apple-touch-icon" href="src/apple-touch-icon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloosom DSP — Audio Tools for Sound That Moves</title>
+    <meta name="description" content="Bloosom DSP is an independent audio software project making tools for producers, mixers, and artists who care about character, movement, and sound.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="src/apple-touch-icon.png" />
 </head>
 <body>
-  <!-- Hero -->
-  <header class="hero">
-    <nav class="nav" aria-label="Primary">
-      <span class="nav__brand">BLOOSOM<span class="accent">.DSP</span></span>
-      <div class="nav__links">
-        <a href="#plugins">Plugins</a>
-        <a href="#videos">Videos</a>
-        <a href="#about">About</a>
-      </div>
+
+    <!-- Minimal Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="#home" class="nav-link" aria-label="Home">
+                <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#shop" class="nav-link" aria-label="Shop">
+                <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                <span class="nav-label">Shop</span>
+            </a>
+            <a href="#about" class="nav-link" aria-label="About">
+                <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <span class="nav-label">About</span>
+            </a>
+        </div>
     </nav>
 
-    <div class="hero__inner reveal">
-      <h1 class="hero__logo">
-        <span class="hero__logo-main">BLOOSOM</span>
-        <span class="hero__logo-sub accent">DSP</span>
-      </h1>
-      <p class="hero__tagline">Tools that breathe life into your sound</p>
-      <a href="#plugins" class="btn btn--solid hero__cta">Explore Plugins</a>
-    </div>
-  </header>
-
-  <main>
-    <!-- Product showcase -->
-    <section id="plugins" class="plugins">
-      <div class="section-head reveal">
-        <span class="eyebrow">The Collection</span>
-        <h2 class="section-title">Three instruments. One philosophy.</h2>
-      </div>
-
-      <div class="cards">
-        <article class="card reveal">
-          <div class="card__art">
-            <img src="src/plugin-bloomSaturator.png" alt="Peach saturator plugin interface" loading="lazy" />
-          </div>
-          <h3 class="card__name">PEACH</h3>
-          <p class="card__desc">Analog-modeled saturation that warms every transient.</p>
-          <span class="card__status">Coming Soon</span>
-        </article>
-
-        <article class="card reveal">
-          <div class="card__art">
-            <img src="src/plugin-CactusShaper.png" alt="Cactus transient shaper plugin interface" loading="lazy" />
-          </div>
-          <h3 class="card__name">CACTUS</h3>
-          <p class="card__desc">Transient shaper that gives your drums punch and control.</p>
-          <span class="card__status">Coming Soon</span>
-        </article>
-
-        <article class="card reveal">
-          <div class="card__art">
-            <img src="src/plugin-commingSoon.png" alt="Lychee plugin interface" loading="lazy" />
-          </div>
-          <h3 class="card__name">LYCHEE</h3>
-          <p class="card__desc">???</p>
-          <span class="card__status">Coming Soon</span>
-        </article>
-      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line reveal-up">Bloosom</span>
+                <span class="hero-title-line reveal-up delay-1">DSP</span>
+            </h1>
+            <a href="#shop" class="go-to-shop">
+                <span class="go-to-shop-text">Go to shop</span>
+                <svg class="go-to-shop-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-line"></div>
+        </div>
     </section>
 
-    <!-- Videos -->
-    <section id="videos" class="videos">
-      <div class="section-head reveal">
-        <span class="eyebrow">In Action</span>
-        <h2 class="section-title">Watch the plugins.</h2>
-      </div>
-
-      <div class="video-grid">
-        <div class="video-card reveal">
-          <div class="video-wrap">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLmissing-peach"
-              title="PEACH Saturator demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <p class="video-card__label">PEACH &mdash; Saturator</p>
-        </div>
-
-        <div class="video-card reveal">
-          <div class="video-wrap">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLmissing-cactus"
-              title="CACTUS Transient Shaper demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <p class="video-card__label">CACTUS &mdash; Transient Shaper</p>
-        </div>
-
-        <div class="video-card reveal">
-          <div class="video-wrap">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLmissing-lychee"
-              title="LYCHEE demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <p class="video-card__label">LYCHEE</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="about">
-      <p class="about__line reveal">
-        I&apos;m an audio student who noticed something &mdash; a lot of people want
-        to make music but don&apos;t want to be engineers. They don&apos;t want to
-        tweak 20,000 knobs. They just want good sound that lets them make cool
-        shit. That&apos;s why I build my plugins.
-      </p>
-      <span class="about__sign reveal">&mdash; KL</span>
-    </section>
-    <!-- Newsletter -->
-    <!-- Newsletter -->
-    <section id="newsletter" class="newsletter">
-      <div class="newsletter__inner reveal">
-        <h2 class="newsletter__title">Get notified when plugins drop.</h2>
-
-        <!-- ConvertKit embed wrapped in your styling -->
-        <div class="newsletter__form-wrapper">
-          <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-          <form
-                  action="https://app.kit.com/forms/9590042/subscriptions"
-                  class="seva-form formkit-form"
-                  method="post"
-                  data-sv-form="9590042"
-                  data-uid="031e7d08ef"
-                  data-format="inline"
-                  data-version="5"
-                  data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":false,"url":"https://kit.com/features/forms?utm_campaign=poweredby&utm_content=form&utm_medium=referral&utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
-          >
-            <div data-style="clean">
-              <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
-              <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
-                <div class="formkit-field">
-                  <input
-                          class="formkit-input"
-                          name="email_address"
-                          aria-label="Email Address"
-                          placeholder="you@email.com"
-                          required
-                          type="email"
-                  >
-                </div>
-                <button data-element="submit" class="formkit-submit formkit-submit">
-                  <div class="formkit-spinner">
-                    <div></div><div></div><div></div>
-                  </div>
-                  <span>Notify Me</span>
-                </button>
-              </div>
-            </div>
-          </form>
+        <div class="about-inner">
+            <p class="about-line reveal-text">Bloosom DSP is an independent</p>
+            <p class="about-line reveal-text">audio software project built</p>
+            <p class="about-line reveal-text">by a sound engineering student.</p>
+            <p class="about-line spacer" aria-hidden="true">&nbsp;</p>
+            <p class="about-line reveal-text">I make tools for producers,</p>
+            <p class="about-line reveal-text">mixers, and artists who care</p>
+            <p class="about-line reveal-text">about character, movement, and sound.</p>
+            <p class="about-line spacer" aria-hidden="true">&nbsp;</p>
+            <p class="about-line reveal-text">This is the beginning of a company</p>
+            <p class="about-line reveal-text">built around creating plugins</p>
+            <p class="about-line reveal-text">that are useful, inspiring, and different.</p>
         </div>
-
-        <p class="newsletter__note">No spam. Only releases.</p>
-      </div>
     </section>
-    <!-- ConvertKit tracking script (optional but recommended) -->
-    <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <span class="footer__brand">BLOOSOM<span class="accent">.DSP</span></span>
-    <nav class="footer__links" aria-label="Footer">
-      <a href="#plugins">Plugins</a>
-      <a href="#about">About</a>
-      <a href="mailto:hello@bloosomdsp.com">Contact</a>
-    </nav>
-    <span class="footer__copy">&copy; 2026 Bloosom DSP. All rights reserved.</span>
-  </footer>
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="shop-inner">
+            <h2 class="shop-heading reveal-up">Tools for sound<br>that moves.</h2>
+            <a href="https://shop.bloosomdsp.com" class="shop-cta" target="_blank" rel="noopener noreferrer">
+                <span class="shop-cta-text">Check out the shop</span>
+                <svg class="shop-cta-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
 
-  <script src="js/main.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <a href="#" class="footer-link">Terms of Use</a>
+            <span class="footer-divider" aria-hidden="true">/</span>
+            <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
